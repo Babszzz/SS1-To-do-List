@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show Skill - To Do List App</title>
+    <link rel="stylesheet" href="/asset/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="info">
+        This is a to do list app built with html, css and Vanilla Javascript
+        <br />
+        You can add, check as done, edit and delete a task. It also stores your
+        action in Local storage.
+      </p>
+
+      <div class="todo-app">
+        <h2>To Do List <img src="./asset/img/icon.png" alt="icon" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button onclick="saveAction()">Save</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>
